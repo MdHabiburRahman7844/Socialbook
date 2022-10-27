@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <mmeta http-equiv="UFT-8"></mmeta>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>www.Socialbook.com</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <nav>
+        <div class="nav-left">
+            <img src="socialbook_img/images/logo.png" class="logo">
+            <ul>
+               <li><img src="socialbook_img/images/profile-home.png" alt=""></li>
+                <li><img src="socialbook_img/images/notification.png"></li>
+                <li><img src="socialbook_img/images/game.png" alt=""></li>
+                <li><img src="socialbook_img/images/video-24.png" alt=""></li>
+            </ul>
+        </div>
+        <div class="nav-right">
+            <div class="search-box">
+               <img src="socialbook_img/images/search.png">
+                <input type="text" placeholder="search">
+            </div>
+            <div class="nav-user-icon online" onclick="settingsMenuToggle()">
+                <img src="socialbook_img/images/profile-pic.jpg">
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+      
+       <!-------left-sidebar----->
+        <div class="left-sidebar">
+            <div class="imp-links">
+               <a href="#"><img src="socialbook_img/images/messenger.png"> Messenger</a>
+                <a href="#"><img src="socialbook_img/images/news.png"> Latest News</a>
+                <a href="#"><img src="socialbook_img/images/friends.png"> Friends</a>
+                <a href="#"><img src="socialbook_img/images/group.png"> Group</a>
+                <a href="#"><img src="socialbook_img/images/marketplace.png"> Marketplace</a>
+                <a href="#"><img src="socialbook_img/images/watch.png"> Watch</a>
+                <a href="#">See More</a>
+            </div>
+            <div class="shortcut-links">
+                <p>Your Shortcuts</p>
+                <a href="#"><img src="socialbook_img/images/shortcut-1.png">Web Developers</a>
+                <a href="#"><img src="socialbook_img/images/shortcut-2.png">Web Design Course</a>
+                <a href="#"><img src="socialbook_img/images/shortcut-3.png">Full Stack Development</a>
+                <a href="#"><img src="socialbook_img/images/shortcut-4.png">Website Experts</a>
+            </div>
+        </div>
+        
+        <!-------main-content----->
+        <div class="main-content">
+            <div class="story-gallery">
+                <div class="story story1">
+                    <img src="socialbook_img/images/upload.png">
+                    <p>Post Story</p>
+                </div>
+                 <div class="story story2">
+                    <img src="socialbook_img/images/member-2.jpg">
+                    <p>Masuka Rahman Ruhi</p>
+                </div>
+                 <div class="story story3">
+                    <img src="socialbook_img/images/status-3.jpg">
+                    <p>Sonjoy Das</p>
+                </div>
+                 <div class="story story4">
+                    <img src="socialbook_img/images/member-4.jpg">
+                    <p>Ariful Islam</p>
+                </div>
+                 <div class="story story5">
+                    <img src="socialbook_img/images/member-5.jpg">
+                    <p>Rongdonu Kahar</p>
+                </div>
+            </div>
+            <div class="write-post-container">
+                <div class="user-profile">
+                    <img src="socialbook_img/images/profile-pic.png">
+                    <div>
+                        <p>Md Habibur Rahman</p>
+                        <small>Public <img src="socialbook_img/images/arrow-down.png"></small>
+                    </div>
+                </div>
+                <div class="post-input-container">
+                    <textarea rows="3" placeholder="What's on your mind?"></textarea>
+                    <div class="add-post-links">
+                        <a href="#"><img src="socialbook_img/images/live-video.png">Live Video</a>
+                        <a href="#"><img src="socialbook_img/images/photo.png">Photo/Video</a>
+                        <a href="#"><img src="socialbook_img/images/feeling.png">Feeling/Activity</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                    <img src="socialbook_img/images/profile-pic.png">
+                    <div>
+                        <p>Md Habibur Rahman</p>
+                        <span>Dec 5, 2019 <img src="socialbook_img/images/settings.png"></span>
+                    </div>
+                </div>
+                <span><img src="socialbook_img/images/3dot.png" ></span>
+                </div>
+
+                <p class="post-text"><span>Happy Birthday Bondu</span><br> <a href="#">Sonjoy Das</a></p>
+                <video class="video" width="100%" controls>
+                    <source src="socialbook_img/1630232876726_fb_video.mkv">
+                </video>
+                <div class="post-row">
+                    <div class="activity-icon">
+                        <div> <img src="socialbook_img/images/like-blue.png">120</div>
+                        <div> <img src="socialbook_img/images/comments.png">45</div>
+                        <div> <img src="socialbook_img/images/share.png">20</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="socialbook_img/images/profile-pic.png"> <img class="icon" src="socialbook_img/images/arrow-down.png">
+                    </div>
+                </div>
+            </div>
+             <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                    <img src="socialbook_img/images/member-2.jpg">
+                    <div>
+                        <p>Masuka Rahman Ruhi</p>
+                        <span>July 22, 2020 <img src="socialbook_img/images/settings.png"></span>
+                    </div>
+                </div>
+                <span><img src="socialbook_img/images/3dot.png" ></span>
+                </div>
+                <div class="ruhi">
+                    <img src="socialbook_img/images/member-2.jpg">
+                </div>
+                
+                <div class="post-row">
+                    <div class="activity-icon">
+                        <div> <img src="socialbook_img/images/like-blue.png">20</div>
+                        <div> <img src="socialbook_img/images/comments.png">5</div>
+                        <div> <img src="socialbook_img/images/share.png"></div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="socialbook_img/images/member-2.jpg"> <img class="icon" src="socialbook_img/images/arrow-down.png">
+                    </div>
+                </div>
+            </div>
+            <div class="post-container">
+                 <div class="post-row">
+                    <div class="user-profile">
+                    <img src="socialbook_img/images/status-3.jpg">
+                    <div>
+                        <p>Sonjoy Das</p>
+                        <span>Today <img src="socialbook_img/images/settings.png"></span>
+                    </div>
+                </div>
+                <span><img src="socialbook_img/images/3dot.png" ></span>
+                </div>
+                <p>Kew jokhn amy sundor bole</p>
+                <div class="ruhi">
+                    <img src="socialbook_img/images/status-3.jpg">
+                </div>
+                
+                <div class="post-row">
+                    <div class="activity-icon">
+                        <div> <img src="socialbook_img/images/like-blue.png">10</div>
+                        <div> <img src="socialbook_img/images/comments.png">3</div>
+                        <div> <img src="socialbook_img/images/share.png"></div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="socialbook_img/images/status-3.jpg"> <img class="icon" src="socialbook_img/images/arrow-down.png">
+                    </div>
+                </div>
+            </div>
+            <div class="post-container">
+                 <div class="post-row">
+                    <div class="user-profile">
+                    <img src="socialbook_img/images/member-4.jpg">
+                    <div>
+                        <p>Ariful Islam</p>
+                        <span>30 minutes ago <img src="socialbook_img/images/settings.png"></span>
+                    </div>
+                </div>
+                <span><img src="socialbook_img/images/3dot.png" ></span>
+                </div>
+                <p></p>
+                <div class="ruhi">
+                    <img src="socialbook_img/images/status-4.jpg">
+                </div>
+                
+                <div class="post-row">
+                    <div class="activity-icon">
+                        <div> <img src="socialbook_img/images/like-blue.png">50</div>
+                        <div> <img src="socialbook_img/images/comments.png">25</div>
+                        <div> <img src="socialbook_img/images/share.png"></div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="socialbook_img/images/member-4.jpg"> <img class="icon" src="socialbook_img/images/arrow-down.png">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="post-container">
+                 <div class="post-row">
+                    <div class="user-profile">
+                    <img src="socialbook_img/images/member-5.jpg">
+                    <div>
+                        <p>Rongdonu Kahar</p>
+                        <span>2 days ago <img src="socialbook_img/images/settings.png"></span>
+                    </div>
+                </div>
+                <span><img src="socialbook_img/images/3dot.png" ></span>
+                </div>
+                 <p>Pic- Me <br>Photography- Justine Bappi <br> Presenting by #Rashedul_Islam PHOTOGRAPHY <br> Location- Chhota Sunder Bazar, Chandpur</p>
+                <div class="ruhi">
+                    <img src="socialbook_img/images/status-5.jpg">
+                </div>
+                
+                <div class="post-row">
+                    <div class="activity-icon">
+                        <div> <img src="socialbook_img/images/like-blue.png">71</div>
+                        <div> <img src="socialbook_img/images/comments.png">35</div>
+                        <div> <img src="socialbook_img/images/share.png"></div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="socialbook_img/images/member-5.jpg"> <img class="icon" src="socialbook_img/images/arrow-down.png">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="post-container">
+                 <div class="post-row">
+                    <div class="user-profile">
+                    <img src="socialbook_img/images/profile-pic.png">
+                    <div>
+                        <p>Md Habibur Rahman</p>
+                        <span>5 days ago <img src="socialbook_img/images/settings.png"></span>
+                    </div>
+                </div>
+                <span><img src="socialbook_img/images/3dot.png" ></span>
+                </div>
+                 <p>Pic- Me <br>Photography- Justine Bappi <br> Presenting by #Rashedul_Islam PHOTOGRAPHY <br> Location- Chhota Sunder Bazar, Chandpur</p>
+                <div class="ruhi">
+                    <img src="socialbook_img/images/member-5.png">
+                </div>
+                
+                <div class="post-row">
+                    <div class="activity-icon">
+                        <div> <img src="socialbook_img/images/like-blue.png">179</div>
+                        <div> <img src="socialbook_img/images/comments.png">55</div>
+                        <div> <img src="socialbook_img/images/share.png">23</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="socialbook_img/images/profile-pic.png"> <img class="icon" src="socialbook_img/images/arrow-down.png">
+                    </div>
+                </div>
+            </div>
+            <div class="post-container">
+                 <div class="post-row">
+                    <div class="user-profile">
+                    <img src="socialbook_img/images/profile-pic.png">
+                    <div>
+                        <p>Md Habibur Rahman</p>
+                        <span>8 days ago <img src="socialbook_img/images/settings.png"></span>
+                    </div>
+                </div>
+                <span><img src="socialbook_img/images/3dot.png" ></span>
+                </div>
+                <div class="ruhi">
+                    <img src="socialbook_img/images/member-6.png">
+                </div>
+                
+                <div class="post-row">
+                    <div class="activity-icon">
+                        <div> <img src="socialbook_img/images/like-blue.png">159</div>
+                        <div> <img src="socialbook_img/images/comments.png">55</div>
+                        <div> <img src="socialbook_img/images/share.png"></div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="socialbook_img/images/profile-pic.png"> <img class="icon" src="socialbook_img/images/arrow-down.png">
+                    </div>
+                </div>
+            </div>
+             <div class="post-container">
+                 <div class="post-row">
+                    <div class="user-profile">
+                    <img src="socialbook_img/images/profile-pic.png">
+                    <div>
+                        <p>Md Habibur Rahman</p>
+                        <span> Friday <img src="socialbook_img/images/settings.png"></span>
+                    </div>
+                </div>
+                <span><img src="socialbook_img/images/3dot.png" ></span>
+                </div>
+                <div class="ruhi">
+                    <img src="socialbook_img/images/member-7.png">
+                </div>
+                
+                <div class="post-row">
+                    <div class="activity-icon">
+                        <div> <img src="socialbook_img/images/like-blue.png">1.5k</div>
+                        <div> <img src="socialbook_img/images/comments.png">550</div>
+                        <div> <img src="socialbook_img/images/share.png"></div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="socialbook_img/images/profile-pic.png"> <img class="icon" src="socialbook_img/images/arrow-down.png">
+                    </div>
+                </div>
+            </div>
+             <div class="post-container">
+                 <div class="post-row">
+                    <div class="user-profile">
+                    <img src="socialbook_img/images/profile-pic.png">
+                    <div>
+                        <p>Md Habibur Rahman</p>
+                        <span>1 Month <img src="socialbook_img/images/settings.png"></span>
+                    </div>
+                </div>
+                <span><img src="socialbook_img/images/3dot.png" ></span>
+                </div>
+                <div class="ruhi">
+                    <img src="socialbook_img/images/member-8.png">
+                </div>
+                
+                <div class="post-row">
+                    <div class="activity-icon">
+                        <div> <img src="socialbook_img/images/like-blue.png">5.5k</div>
+                        <div> <img src="socialbook_img/images/comments.png">1.7k</div>
+                        <div> <img src="socialbook_img/images/share.png">1k</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="socialbook_img/images/profile-pic.png"> <img class="icon" src="socialbook_img/images/arrow-down.png">
+                    </div>
+                </div>
+            </div>
+            
+            <button type="button" class="load-more-button">Load More</button>
+        </div>
+        
+        <!-------right-sidebar----->
+        <div class="right-sidebar">
+            <div class="sidebar-title">
+                <h4>Event</h4>
+                <a href="#">See All</a>
+            </div>
+            <div class="event">
+                <div class="left-event">
+                    <h3>22</h3>
+                    <span>July</span>
+                </div>
+                <div class="right-event">
+                    <h4>Social Media</h4>
+                    <p>Wilson Tech Park</p>
+                    <a href="#">More Info</a>
+                </div>
+            </div>
+             <div class="event">
+                <div class="left-event">
+                    <h3>04</h3>
+                    <span>October</span>
+                </div>
+                <div class="right-event">
+                    <h4>Mobile Marketing</h4>
+                    <p><img src="socialbook_img/images/location-icon.png"> Wilson Tech Park</p>
+                    <a href="#">More Info</a>
+                </div>
+            </div>
+            <div class="sidebar-title">
+                <h4>Advertisement</h4>
+                <a href="#">Close</a>
+            </div>
+            <img src="socialbook_img/images/advertisement.png" class="sidebar-ads">
+             <div class="sidebar-title">
+                <h4>Conversation</h4>
+                <a href="#">Hide Chat</a>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="socialbook_img/images/member-2.jpg">
+                </div>
+                <p>Masuka Rahman Ruhi</p>
+            </div>
+            
+            <div class="online-list">
+                <div class="online">
+                    <img src="socialbook_img/images/status-3.jpg">
+                </div>
+                <p>Sonjoy Das</p>
+            </div>
+            
+            <div class="online-list">
+                <div class="online">
+                    <img src="socialbook_img/images/member-5.jpg">
+                </div>
+                <p>Rongdonu Kahar</p>
+            </div>
+             <div class="online-list">
+                <div class="online">
+                    <img src="socialbook_img/images/member-4.jpg">
+                </div>
+                <p>Ariful Islam</p>
+            </div>    
+        </div>
+    </div>
+    <div class="footer">
+        <p>copyright 2021 - Socialbook</p>
+    </div>
+</body>
+</html>
